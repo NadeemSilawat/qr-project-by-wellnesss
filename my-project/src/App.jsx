@@ -45,6 +45,49 @@ function App() {
     <>
       <Navbar />
       <Router>
+        <nav
+    className="
+      w-full flex flex-wrap justify-center items-center gap-2 sm:gap-4 md:gap-6
+      py-2 px-2 bg-gradient-to-r from-green-400 via-blue-500 to-purple-600
+      backdrop-blur-md
+      shadow-md
+      sticky top-0 z-50
+    "
+  >
+    {[
+      { name: 'Group 21', path: '/Groups21' },
+      { name: 'Group OA6', path: '/Groupoa6' },
+      { name: 'Group DCF', path: '/Groupdcf' },
+      { name: 'Group Arc', path: '/GroupArc' },
+      { name: 'Group KCZ', path: '/Groupkcz' },
+      { name: 'Group YXI', path: '/Groupyxi' },
+      { name: 'Group 23V', path: '/Group23v' },
+      { name: 'Group KCB', path: '/GroupkcB' },
+      { name: 'Group TMK', path: '/Grouptmk' },
+      { name: 'Group SRK', path: '/Groupsrk' },
+      { name: 'Group BLT', path: '/GroupBlt' },
+      { name: 'Group TBG', path: '/GroupTbg' },
+      { name: 'Group 2GB', path: '/Group2gb' },
+      { name: 'Group SRX', path: '/GroupSrx' },
+      { name: 'Club', path: '/Groupclb' },
+    ].map((route) => (
+      <Link
+        key={route.path}
+        to={route.path}
+        className="
+          text-white font-semibold px-3 py-1 rounded-lg
+          transition
+          text-xs sm:text-sm md:text-base
+          shadow-sm
+        "
+        style={{
+          textDecoration: 'none',
+        }}
+      >
+        {route.name}
+      </Link>
+    ))}
+  </nav>
                <Routes>
           <Route path="/Groups21" element={<Groups21 />} />
           <Route path="/Groupoa6" element={<Groupoa6 />} />

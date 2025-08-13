@@ -13,13 +13,13 @@ function Navbar() {
         <span className="text-2xl font-bold text-white tracking-wide drop-shadow">Wellness Club</span>
       </div>  
       {/* Right: JIET Logo */}
-      {/* <div className="flex items-center">
+      <div className="flex items-center">
         <img
           src="/src/assets/JIET+Universe+Logo.png"
           alt="JIET Logo"
           className="h-10 w-auto object-contain drop-shadow-lg"
         />
-      </div> */}
+      </div>
     </div>
   )
 }
