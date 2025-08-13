@@ -46,7 +46,7 @@ function App() {
       <Navbar />
       <Router>
         {/* Navigation hidden but routes still work */}
-        <nav className="hidden">
+        <nav className="">
           {[
             { name: 'Group 21', path: '/Groups21' },
             { name: 'Group OA6', path: '/Groupoa6' },
