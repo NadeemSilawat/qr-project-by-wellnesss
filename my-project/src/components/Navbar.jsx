@@ -15,7 +15,7 @@ function Navbar() {
       {/* Right: JIET Logo */}
       <div className="flex items-center">
         <img
-          src="/src/assets/JIET+Universe+Logo.png"
+          src="src/assets/react.svg"
           alt="JIET Logo"
           className="h-10 w-auto object-contain drop-shadow-lg"
         />
