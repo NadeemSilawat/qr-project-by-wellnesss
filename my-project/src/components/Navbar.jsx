@@ -8,7 +8,7 @@ function Navbar() {
         <img
           src="src/assets/20250615_191433_0000.png"
           alt="Wellness Club Logo"
-          className="h-12 w-auto object-contain drop-shadow-lg"
+          className="h-14 w-auto object-contain drop-shadow-lg"
         />
         <span className="text-2xl font-bold text-white tracking-wide drop-shadow">Wellness Club</span>
       </div>  
