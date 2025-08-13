@@ -82,6 +82,7 @@ function App() {
           ))}
         </nav>
         <Routes>
+          <Route path="/" element={<Groups21 />} />
           <Route path="/Groups21" element={<Groups21 />} />
           <Route path="/Groupoa6" element={<Groupoa6 />} />
           <Route path="/Groupdcf" element={<Groupdcf />} />
