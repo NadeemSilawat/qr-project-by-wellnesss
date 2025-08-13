@@ -27,7 +27,13 @@ const students = [
 ];
 // ...existing code...
 
-const avatarBgColors = [deepOrange[500], deepPurple[500], '#009688', '#1976d2', '#c62828'];
+const avatarBgColors = [
+  deepOrange[500],
+  deepPurple[500],
+  '#009688',
+  '#1976d2',
+  '#c62828',
+];
 
 const StudentCard = ({ student, index }) => {
   return (
@@ -47,10 +53,20 @@ const StudentCard = ({ student, index }) => {
           <Avatar
             alt={student.name}
             src={student.avatar}
-            sx={{ width: 56, height: 56, bgcolor: avatarBgColors[index % avatarBgColors.length] }}
+            sx={{
+              width: 56,
+              height: 56,
+              bgcolor: avatarBgColors[index % avatarBgColors.length],
+            }}
           />
         ) : (
-          <Avatar sx={{ bgcolor: avatarBgColors[index % avatarBgColors.length], width: 56, height: 56 }}>
+          <Avatar
+            sx={{
+              bgcolor: avatarBgColors[index % avatarBgColors.length],
+              width: 56,
+              height: 56,
+            }}
+          >
             {student.name.charAt(0)}
           </Avatar>
         )}
@@ -84,6 +100,16 @@ export default function Grouptmk() {
       <div className="bg-black/40 absolute inset-0 -z-10"></div>
 
       <div className="text-center mb-12">
+        {' '}
+        <h1
+          className="text-5xl sm:text-5xl md:text-5xl font-bold text-yellow-400 tracking-wider"
+          style={{
+            textShadow: '2px 2px 8px rgba(0,0,0,0.6)',
+          }}
+        >
+          Grow - A Plantation Drive By Wellness Club
+        </h1>
+        <sub className="text-yellow-400 ">28/July/2025 Monday</sub>
         <div className="flex items-center justify-center space-x-3">
           <Leaf className="text-green-300 h-10 w-10" />
           <h1
@@ -101,7 +127,6 @@ export default function Grouptmk() {
         </p>
       </div>
 
-   
       <div
         className="
         grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 
