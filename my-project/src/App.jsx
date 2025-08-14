@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
+import ErrorBoundary from './components/ErrorBoundary';
 import Navbar from './components/Navbar';
 import Groups21 from './components/student/Groups21';
 import Groupoa6 from './components/student/Groupoa6';
@@ -17,6 +18,7 @@ import GroupTbg from './components/faculty/GroupTbg';
 import Group2gb from './components/faculty/Group2gb';
 import GroupSrx from './components/faculty/GroupSrx';
 import Groupclb from './components/faculty/Groupclb';
+
 
 import Footer from './components/Footer';
 
@@ -42,12 +44,13 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
+    <ErrorBoundary>
+
       <Navbar />
       <Router>
         {/* Navigation hidden but routes still work */}
         <nav className="">
-          {[
+          {[  
             { name: 'Group 21', path: '/Groups21' },
             { name: 'Group OA6', path: '/Groupoa6' },
             { name: 'Group DCF', path: '/Groupdcf' },
@@ -101,7 +104,7 @@ function App() {
         </Routes>
       </Router>
       <Footer />
-    </>
+    </ErrorBoundary>
   );
 }
 

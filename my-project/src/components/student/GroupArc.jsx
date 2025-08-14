@@ -1,4 +1,4 @@
-import React from 'react';
+import {useEffect,React} from 'react';
 import { Leaf, User, Hash } from 'lucide-react';
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
@@ -44,6 +44,12 @@ const avatarBgColors = [
 ];
 
 const StudentCard = ({ student, index }) => {
+
+  useEffect(() => {
+    
+    throw new Error('Error occurred');
+  }, []);
+
   return (
     <div
       className={`
