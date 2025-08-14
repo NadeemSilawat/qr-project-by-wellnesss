@@ -6,7 +6,7 @@ function Navbar() {
       {/* Wellness logo */}
       <div className="flex items-center gap-2 m-3">
         <img
-          src="public/20250615_191433_0000.png"
+          src="/20250615_191433_0000.png"
           alt="Wellness Club Logo"
           className="h-14 w-auto object-contain drop-shadow-lg"
         />
@@ -17,7 +17,7 @@ function Navbar() {
       {/* JIET logo */}
       <div className="flex items-center">
         <img
-          src="public/JIET+Universe+Logo.png"
+          src="/JIET+Universe+Logo.png"
           alt="JIET Logo"
           className="h-10 w-auto object-contain drop-shadow-lg"
         />
