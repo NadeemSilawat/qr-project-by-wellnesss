@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import Groups21 from './components/student/Groups21';
 import Groupoa6 from './components/student/Groupoa6';
 import Groupdcf from './components/student/Groupdcf';
-import <Groupxpq></Groupxpq> from './components/student/Groupxpq';
+import Groupxpq from './components/student/Groupxpq';
 import Groupkcz from './components/student/Groupkcz';
 import Groupyxi from './components/student/Groupyxi';
 import Group23v from './components/student/Group23v';
