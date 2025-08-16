@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import Groups21 from './components/student/Groups21';
 import Groupoa6 from './components/student/Groupoa6';
 import Groupdcf from './components/student/Groupdcf';
-import Groupxpq from './components/student/Groupxpq';
+import Groupsys from './components/student/Groupsys';
 import Groupkcz from './components/student/Groupkcz';
 import Groupyxi from './components/student/Groupyxi';
 import Group23v from './components/student/Group23v';
@@ -18,8 +18,6 @@ import GroupTbg from './components/faculty/GroupTbg';
 import Group2gb from './components/faculty/Group2gb';
 import GroupSrx from './components/faculty/GroupSrx';
 import Groupclb from './components/faculty/Groupclb';
-
-
 import Footer from './components/Footer';
 
 // const styles = {
@@ -45,16 +43,15 @@ import Footer from './components/Footer';
 function App() {
   return (
     <ErrorBoundary>
-
       <Navbar />
       <Router>
         {/* Navigation hidden but routes still work */}
         <nav className="">
-          {[  
+          {[
             { name: 'Group 21', path: '/Groups21' },
             { name: 'Group OA6', path: '/Groupoa6' },
             { name: 'Group DCF', path: '/Groupdcf' },
-            { name: 'Group xpq', path: '/Groupxpq' },
+            { name: 'Group sys', path: '/Groupsys' },
             { name: 'Group KCZ', path: '/Groupkcz' },
             { name: 'Group YXI', path: '/Groupyxi' },
             { name: 'Group 23V', path: '/Group23v' },
@@ -89,7 +86,7 @@ function App() {
           <Route path="/Groups21" element={<Groups21 />} />
           <Route path="/Groupoa6" element={<Groupoa6 />} />
           <Route path="/Groupdcf" element={<Groupdcf />} />
-          <Route path="/Groupxpq" element={<Groupxpq />} />
+          <Route path="/Groupsys" element={<Groupsys />} />
           <Route path="/Groupkcz" element={<Groupkcz />} />
           <Route path="/Groupyxi" element={<Groupyxi />} />
           <Route path="/Group23v" element={<Group23v />} />
