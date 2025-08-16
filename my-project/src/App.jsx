@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import Groups21 from './components/student/Groups21';
 import Groupoa6 from './components/student/Groupoa6';
 import Groupdcf from './components/student/Groupdcf';
-import GroupArc from './components/student/GroupArc';
+import GroupArc from './components/student/Groupxpq';
 import Groupkcz from './components/student/Groupkcz';
 import Groupyxi from './components/student/Groupyxi';
 import Group23v from './components/student/Group23v';
@@ -54,7 +54,7 @@ function App() {
             { name: 'Group 21', path: '/Groups21' },
             { name: 'Group OA6', path: '/Groupoa6' },
             { name: 'Group DCF', path: '/Groupdcf' },
-            { name: 'Group Arc', path: '/GroupArc' },
+            { name: 'Group xpq', path: '/Groupxpq' },
             { name: 'Group KCZ', path: '/Groupkcz' },
             { name: 'Group YXI', path: '/Groupyxi' },
             { name: 'Group 23V', path: '/Group23v' },
@@ -89,7 +89,7 @@ function App() {
           <Route path="/Groups21" element={<Groups21 />} />
           <Route path="/Groupoa6" element={<Groupoa6 />} />
           <Route path="/Groupdcf" element={<Groupdcf />} />
-          <Route path="/GroupArc" element={<GroupArc />} />
+          <Route path="/Groupxpq" element={<Groupxpq />} />
           <Route path="/Groupkcz" element={<Groupkcz />} />
           <Route path="/Groupyxi" element={<Groupyxi />} />
           <Route path="/Group23v" element={<Group23v />} />

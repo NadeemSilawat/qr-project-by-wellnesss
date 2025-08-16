@@ -96,7 +96,7 @@ const StudentCard = ({ student, index }) => {
   );
 };
 // Main App Component
-export default function GroupArc() {
+export default function Groupxpq() {
   return (
     <div
       className="
