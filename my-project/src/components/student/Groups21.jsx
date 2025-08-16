@@ -43,6 +43,11 @@ const students = [
     bgColor: 'bg-lime-500/10',
   },
   {
+    name: 'Abhilasha',
+    regNo: 'JIET24MCA023',
+    bgColor: 'bg-lime-500/10',
+  },
+  {
     name: 'Khyati Chandora',
     regNo: 'JIET24CS104',
     bgColor: 'bg-lime-500/10',
