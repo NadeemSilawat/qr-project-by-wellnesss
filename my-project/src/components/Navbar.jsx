@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar() {
   return (
-    <div className=" w-full z-50 flex items-center justify-between bg-gradient-to-r from-green-200 via-green-700 to-green-600 shadow-lg px-6 py-2">
+    <div className="w-full z-50 flex items-center justify-between bg-gradient-to-r from-green-200 via-green-700 to-green-600 shadow-lg px-6 py-2">
       {/* Wellness logo */}
       <div className="flex items-center gap-2 m-3">
         <img
@@ -10,6 +10,9 @@ function Navbar() {
           alt="Wellness Club Logo"
           className="h-14 w-auto object-contain drop-shadow-lg"
         />
+      </div>
+      {/* Centered GROW text */}
+      <div className="flex-1 flex justify-center">
         <span className="text-2xl font-bold text-white tracking-wide drop-shadow">
           GROW
         </span>

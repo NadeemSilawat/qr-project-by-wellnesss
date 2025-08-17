@@ -18,6 +18,16 @@ const students = [
     bgColor: 'bg-emerald-500/10',
   },
   {
+    name: 'Himanshi Suthar',
+    regNo: 'JIET23CYS011',
+    bgColor: 'bg-lime-500/10',
+  },
+  {
+    name: 'Bhagyashree Joshi',
+    regNo: 'JIET23DS022',
+    bgColor: 'bg-lime-500/10',
+  },
+  {
     name: 'Vikram Gehlot',
     regNo: 'JIET23AIML046',
     bgColor: 'bg-teal-500/10',
@@ -25,16 +35,6 @@ const students = [
   {
     name: 'Lokender Singh ',
     regNo: 'JIET24EC024',
-    bgColor: 'bg-lime-500/10',
-  },
-  {
-    name: 'Bhagyashree ',
-    regNo: 'JIET23DS022',
-    bgColor: 'bg-lime-500/10',
-  },
-  {
-    name: 'Himanshi',
-    regNo: 'JIET23CYS011',
     bgColor: 'bg-lime-500/10',
   },
   {
