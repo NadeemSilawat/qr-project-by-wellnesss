@@ -18,6 +18,8 @@ import GroupTbg from './components/faculty/GroupTbg';
 import Group2gb from './components/faculty/Group2gb';
 import GroupSrx from './components/faculty/GroupSrx';
 import Groupclb from './components/faculty/Groupclb';
+import GroupaDm from './components/faculty/GroupaDm';
+
 import Footer from './components/Footer';
 
 // const styles = {
@@ -46,7 +48,7 @@ function App() {
       <Navbar />
       <Router>
         {/* Navigation hidden but routes still work */}
-        <nav className="">
+        <nav className="hidden">
           {[
             { name: 'Group 21', path: '/Groups21' },
             { name: 'Group OA6', path: '/Groupoa6' },
@@ -63,6 +65,7 @@ function App() {
             { name: 'Group 2GB', path: '/Group2gb' },
             { name: 'Group SRX', path: '/GroupSrx' },
             { name: 'Club', path: '/Groupclb' },
+            { name: 'GroupADM', path: '/GroupaDm' },
           ].map((route) => (
             <Link
               key={route.path}
@@ -98,6 +101,8 @@ function App() {
           <Route path="/Group2gb" element={<Group2gb />} />
           <Route path="/GroupSrx" element={<GroupSrx />} />
           <Route path="/Groupclb" element={<Groupclb />} />
+          <Route path="/GroupaDm" element={<GroupaDm />} />
+
         </Routes>
       </Router>
       <Footer />

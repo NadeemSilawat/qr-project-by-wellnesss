@@ -11,7 +11,7 @@ function Navbar() {
           className="h-14 w-auto object-contain drop-shadow-lg"
         />
         <span className="text-2xl font-bold text-white tracking-wide drop-shadow">
-          Wellness Club
+          GROW
         </span>
       </div>
       {/* JIET logo */}
